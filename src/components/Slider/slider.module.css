@@ -1,0 +1,23 @@
+.slider-container {
+    background-color: bisque;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+.slider {
+   display: flex; 
+   max-width: 100vw;
+   transition: trasform 0.5s ease-in-out;
+}
+.slide-container{
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.button-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}

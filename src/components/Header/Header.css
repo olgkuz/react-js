@@ -1,0 +1,13 @@
+
+.header {
+    height: 5rem;
+    display: flex;
+    border-bottom: solid 2px rgb(32, 5, 5) ;
+    background-color: bisque;
+    justify-content: space-between;
+
+
+}
+.dark {
+    background-color: rgb(17, 15, 17);
+  }

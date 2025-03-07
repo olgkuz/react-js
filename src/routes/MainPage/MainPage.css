@@ -1,0 +1,22 @@
+.wraper {
+    margin: 0,auto;
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-around;
+    min-width: 1280px;
+    min-height: 100vh;
+    background-color: bisque;
+}
+.toptext {
+    margin-left: 1em;
+    
+}
+.buttontext {
+    margin-left: 5em;
+}
+.picture {
+    border-radius: 1em;
+}
+.dark {
+    background-color: rgb(211, 16, 169);
+  }
