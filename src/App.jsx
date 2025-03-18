@@ -7,13 +7,19 @@ import  MainPage from './routes/MainPage/MainPage';
 
 import Blog from './routes/Blog/Blog';
 
+import { ThemeContext } from './context/context';
+import { useState } from 'react';
+
 
 
  function App() {
   
-
+ const [theme,setTheme] = useState ('light');
+ const toggleTheme =() =>{
+  theme === 'light' ? setTheme('dark') : setTheme ('light')
+ }
   return (
-    
+      <ThemeContext.Provider value={{theme,toggleTheme}}>
       <Routes>
          <Route path="/" element={<MainPage/>} /> 
          
@@ -23,7 +29,7 @@ import Blog from './routes/Blog/Blog';
      
       
      </Routes>
-  
+  </ThemeContext.Provider>
   )
 }
  

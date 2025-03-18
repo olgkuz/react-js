@@ -9,10 +9,10 @@ import ThemeProvider  from "./components/ThemeProvider.jsx"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ThemeProvider>
+    
       <BrowserRouter>
         <App />
       </BrowserRouter>
-      </ThemeProvider>
+      
   </StrictMode>,
 );

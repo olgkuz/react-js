@@ -5,7 +5,7 @@
     justify-content: space-around;
     min-width: 1280px;
     min-height: 100vh;
-    background-color: bisque;
+    
 }
 .toptext {
     margin-left: 1em;
@@ -17,6 +17,3 @@
 .picture {
     border-radius: 1em;
 }
-.dark {
-    background-color: rgb(211, 16, 169);
-  }

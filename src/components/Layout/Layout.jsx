@@ -9,6 +9,8 @@ import './Layout.css'
 
 export default function Layout ({children,className}) {
     const {theme} = useContext(ThemeContext)
+    console.log(theme)
+
     return (
         <><Header/><main className={cn(className,theme)}>{children}</main><Footer/></>
 
